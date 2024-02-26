@@ -20,7 +20,7 @@ android {
     }
     namespace = pkg
     defaultConfig {
-        applicationId = pkg
+        applicationId = "com.wireguard_plus.android"
         minSdk = 21
         targetSdk = 34
         versionCode = providers.gradleProperty("wireguardVersionCode").get().toInt()
